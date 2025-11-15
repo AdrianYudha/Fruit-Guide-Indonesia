@@ -1,23 +1,23 @@
 export type Fruit = {
-  id: string
-  name: string
-  scientificName: string
-  image: string
-  benefits: string[]
+  id: string;
+  name: string;
+  scientificName: string;
+  image: string;
+  benefits: string[];
   processing: {
-    name: string
-    benefits: string[]
-  }[]
+    name: string;
+    benefits: string[];
+  }[];
   parts: {
-    name: string
-    benefits: string[]
-  }[]
-  season: string
+    name: string;
+    benefits: string[];
+  }[];
+  season: string;
   nutrition: {
-    vitamin: string
-    mineral: string
-  }
-}
+    vitamin: string;
+    mineral: string;
+  };
+};
 
 export const fruitsDatabase: Fruit[] = [
   {
@@ -35,7 +35,11 @@ export const fruitsDatabase: Fruit[] = [
     processing: [
       {
         name: "Jus Mangga",
-        benefits: ["Mudah dicerna", "Meningkatkan energi", "Segar dan menyegarkan"],
+        benefits: [
+          "Mudah dicerna",
+          "Meningkatkan energi",
+          "Segar dan menyegarkan",
+        ],
       },
       {
         name: "Manisan Mangga",
@@ -53,7 +57,11 @@ export const fruitsDatabase: Fruit[] = [
       },
       {
         name: "Biji",
-        benefits: ["Mengandung mineral", "Bisa untuk benih", "Berkhasiat tradisional"],
+        benefits: [
+          "Mengandung mineral",
+          "Bisa untuk benih",
+          "Berkhasiat tradisional",
+        ],
       },
       {
         name: "Kulit",
@@ -99,7 +107,11 @@ export const fruitsDatabase: Fruit[] = [
       },
       {
         name: "Kulit",
-        benefits: ["Bisa untuk kompos", "Mengandung nutrisi", "Ramah lingkungan"],
+        benefits: [
+          "Bisa untuk kompos",
+          "Mengandung nutrisi",
+          "Ramah lingkungan",
+        ],
       },
       {
         name: "Batang",
@@ -135,7 +147,11 @@ export const fruitsDatabase: Fruit[] = [
       },
       {
         name: "Nanas Panggang",
-        benefits: ["Rasa manis intensif", "Tekstur lembut", "Cocok untuk dessert"],
+        benefits: [
+          "Rasa manis intensif",
+          "Tekstur lembut",
+          "Cocok untuk dessert",
+        ],
       },
     ],
     parts: [
@@ -241,7 +257,11 @@ export const fruitsDatabase: Fruit[] = [
       },
       {
         name: "Biji",
-        benefits: ["Berkhasiat tradisional", "Kaya nutrisi", "Bisa untuk benih"],
+        benefits: [
+          "Berkhasiat tradisional",
+          "Kaya nutrisi",
+          "Bisa untuk benih",
+        ],
       },
     ],
     season: "Juni - September",
@@ -287,7 +307,11 @@ export const fruitsDatabase: Fruit[] = [
       },
       {
         name: "Kulit Luar",
-        benefits: ["Unik dan dekoratif", "Bisa untuk kerajinan", "Ramah lingkungan"],
+        benefits: [
+          "Unik dan dekoratif",
+          "Bisa untuk kerajinan",
+          "Ramah lingkungan",
+        ],
       },
     ],
     season: "Juni - Agustus",
@@ -806,7 +830,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "jeruk-nipis",
     name: "Jeruk Nipis",
     scientificName: "Citrus aurantifolia",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/jeruk-nipis-small-green.jpg",
     benefits: [
       "Kaya vitamin C untuk imunitas",
       "Membantu pencernaan",
@@ -852,7 +876,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "jeruk-mandarin",
     name: "Jeruk Mandarin",
     scientificName: "Citrus reticulata",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/jeruk-mandarin-orange.jpg",
     benefits: [
       "Kaya vitamin C untuk imunitas",
       "Mengandung flavonoid antioksidan",
@@ -898,7 +922,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "grapefruit",
     name: "Grapefruit",
     scientificName: "Citrus paradisi",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/grape-purple-fruit.jpg",
     benefits: [
       "Kaya vitamin C untuk imunitas",
       "Mengandung lycopene antioksidan",
@@ -944,7 +968,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "naga",
     name: "Buah Naga",
     scientificName: "Hylocereus undatus",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/dragon-fruit-pink.jpg",
     benefits: [
       "Kaya vitamin C untuk imunitas",
       "Sumber serat untuk pencernaan",
@@ -1036,7 +1060,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "jambu-biji",
     name: "Jambu Biji",
     scientificName: "Psidium guajava L. var. Carnea",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/guava-green-fruit.jpg",
     benefits: [
       "Kaya vitamin C untuk imunitas",
       "Sumber serat untuk pencernaan",
@@ -1082,7 +1106,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "belimbing",
     name: "Belimbing",
     scientificName: "Averrhoa carambola",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/starfruit-yellow.jpg",
     benefits: [
       "Kaya vitamin C untuk imunitas",
       "Sumber serat untuk pencernaan",
@@ -1128,7 +1152,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "markisa",
     name: "Markisa",
     scientificName: "Passiflora edulis",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/markisa.png",
     benefits: [
       "Kaya serat untuk pencernaan",
       "Sumber vitamin C",
@@ -1174,7 +1198,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "ceri",
     name: "Ceri",
     scientificName: "Prunus serrulata",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/cherry-red-fruit.jpg",
     benefits: [
       "Kaya antioksidan untuk kesehatan",
       "Membantu tidur berkualitas",
@@ -1220,7 +1244,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "sukun",
     name: "Sukun",
     scientificName: "Artocarpus altilis",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/sukun.png",
     benefits: [
       "Kaya karbohidrat untuk energi",
       "Sumber serat untuk pencernaan",
@@ -1312,7 +1336,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "buah-tin",
     name: "Buah Tin",
     scientificName: "Ficus carica",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/tin.png",
     benefits: [
       "Kaya serat untuk pencernaan",
       "Sumber mineral penting",
@@ -1404,7 +1428,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "rambutan-putih",
     name: "Rambutan Putih",
     scientificName: "Nephelium lappaceum var. Albino",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/rambutan-hairy-fruit.jpg",
     benefits: [
       "Kaya vitamin C untuk imunitas",
       "Mengandung tembaga untuk kesehatan darah",
@@ -1437,7 +1461,11 @@ export const fruitsDatabase: Fruit[] = [
       },
       {
         name: "Kulit",
-        benefits: ["Unik dan dekoratif", "Bisa untuk kerajinan", "Ramah lingkungan"],
+        benefits: [
+          "Unik dan dekoratif",
+          "Bisa untuk kerajinan",
+          "Ramah lingkungan",
+        ],
       },
     ],
     season: "Juni - Agustus",
@@ -1483,7 +1511,11 @@ export const fruitsDatabase: Fruit[] = [
       },
       {
         name: "Kulit",
-        benefits: ["Unik dan dekoratif", "Bisa untuk kerajinan", "Ramah lingkungan"],
+        benefits: [
+          "Unik dan dekoratif",
+          "Bisa untuk kerajinan",
+          "Ramah lingkungan",
+        ],
       },
     ],
     season: "Juli - September",
@@ -1496,7 +1528,7 @@ export const fruitsDatabase: Fruit[] = [
     id: "nangka",
     name: "Nangka",
     scientificName: "Artocarpus heterophyllus",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/jackfruit-yellow.jpg",
     benefits: [
       "Kaya vitamin C untuk imunitas",
       "Sumber serat untuk pencernaan",
@@ -1630,4 +1662,4 @@ export const fruitsDatabase: Fruit[] = [
       mineral: "Potassium, Magnesium, Copper",
     },
   },
-]
+];
